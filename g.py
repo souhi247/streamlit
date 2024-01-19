@@ -30,8 +30,6 @@ def main():
     st.title("タスク管理ツール:white_check_mark:")
     add_task()
     display_tasks()
-    st.markdown('''
-    説明:表から直接編集できます。行を選択して右上のゴミ箱マークを押せば削除できます。''')
 
 # スクリプトとして実行された場合にのみmain()を実行
 if __name__ == '__main__':
